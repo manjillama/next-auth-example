@@ -39,8 +39,7 @@ export default function SignInForm() {
           (NEXT_AUTH_ERRORS as any)[res.error] ?? "Something went wrong."
         );
       }
-    }
-    setError("Something went wrong.");
+    } else setError("Something went wrong.");
   };
 
   return (

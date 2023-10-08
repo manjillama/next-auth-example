@@ -48,8 +48,7 @@ export default function SignUpForm() {
             (NEXT_AUTH_ERRORS as any)[res.error] ?? "Something went wrong.",
           ]);
         }
-        setErrors(["Something went wrong."]);
-      }
+      } else setErrors(["Something went wrong."]);
     } else setErrors(data.errors);
 
     setIsSubmitting(false);
