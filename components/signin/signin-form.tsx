@@ -39,7 +39,7 @@ export default function SignInForm() {
           (NEXT_AUTH_ERRORS as any)[res.error] ?? "Something went wrong."
         );
       }
-    }
+    } else setError("Something went wrong.");
   };
 
   return (
@@ -89,7 +89,7 @@ export default function SignInForm() {
   );
 }
 
-const NEXT_AUTH_ERRORS = {
+export const NEXT_AUTH_ERRORS = {
   CredentialsSignin: "Incorrect email or password",
   CredentialsSigninMissing: "Please provide both email and password",
   OAuthAccountNotLinked:
