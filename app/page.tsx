@@ -3,7 +3,7 @@ import { options } from "./api/auth/[...nextauth]/options";
 import { redirect } from "next/navigation";
 import Link from "next/link";
 
-export default async function Home() {
+export default async function HomePage() {
   const session = await getServerSession(options);
   if (session) redirect("/dashboard");
   return (

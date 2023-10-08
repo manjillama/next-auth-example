@@ -1,6 +1,5 @@
 import AuthProvider from "@/context/auth-provider";
 import "./globals.css";
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { getServerSession } from "next-auth";
 import { options } from "./api/auth/[...nextauth]/options";

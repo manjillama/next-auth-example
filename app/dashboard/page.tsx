@@ -3,7 +3,7 @@ import React from "react";
 import { options } from "../api/auth/[...nextauth]/options";
 import Link from "next/link";
 
-const Dashboard = async () => {
+export default async function DashboardPage() {
   const session = await getServerSession(options);
   console.log("From dashboard: (Server session)", session);
 
@@ -27,6 +27,4 @@ const Dashboard = async () => {
       </p>
     </div>
   );
-};
-
-export default Dashboard;
+}

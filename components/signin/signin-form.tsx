@@ -40,6 +40,7 @@ export default function SignInForm() {
         );
       }
     }
+    setError("Something went wrong.");
   };
 
   return (
@@ -89,7 +90,7 @@ export default function SignInForm() {
   );
 }
 
-const NEXT_AUTH_ERRORS = {
+export const NEXT_AUTH_ERRORS = {
   CredentialsSignin: "Incorrect email or password",
   CredentialsSigninMissing: "Please provide both email and password",
   OAuthAccountNotLinked:
