@@ -8,12 +8,6 @@ import Navbar from "@/components/navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Commentsy - Add comments to your site in just few minutes",
-  description:
-    "Add comments to your site in just few minutes. Building community and growing engagements",
-};
-
 export default async function RootLayout({
   children,
 }: {
