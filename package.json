@@ -1,6 +1,6 @@
 {
-  "name": "next-auth-mongo",
-  "description": "Example app using NextAuth.js with Next.js and MongoDB",
+  "name": "next-auth-mongo-example",
+  "description": "Example app using NextAuth.js with Next.js 13 and MongoDB",
   "version": "0.1.0",
   "author": "Manjil Tamang <hello@manjiltamang.com> (https://manjiltamang.com/)",
   "scripts": {

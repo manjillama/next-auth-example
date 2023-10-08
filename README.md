@@ -14,14 +14,14 @@
 
 This is an example application that shows how `next-auth` is applied to a basic Next.js app.
 
-The deployed version can be found at [`next-auto-mongo-example.vercel.app`](https://next-auto-mongo-example.vercel.app/)
+The deployed version can be found at [`next-auth-mongo-example.vercel.app`](https://next-auth-mongo-example.vercel.app/)
 
 Go to [next-auth.js.org](https://next-auth.js.org) for more information and documentation.
 
 ### 1. Clone the repository and install dependencies
 
 ```
-git clone https://github.com/manjillama/next-auth-example
+git clone https://github.com/manjillama/next-auth-mongo-example
 npm install
 ```
 
